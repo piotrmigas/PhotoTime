@@ -1,140 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Photo Time</title>
-  <link rel="stylesheet" type="text/css" href="css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
-<body>
-  <div class="promo">
-    <div class="container flex-col">
-      <nav class="promo__nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">photoapp</a></li>
-          <li class="promo__logo"><img src="img/logo.png" alt="" class="logo"></li>
-          <li><a href="#">Design</a></li>
-          <li><a href="#">Download</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Time</title>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <script>
+      document.body.className += " fade-out";
+    </script>
+    <div class="promo">
+      <div class="container flex-col">
+        <nav class="promo__nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">photoapp</a></li>
+            <li class="promo__logo"><img src="img/logo.png" alt="" class="logo" /></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Download</a></li>
+          </ul>
+        </nav>
+        <div class="promo__info">
+          <h1>Your life , a photo</h1>
+          <p>print your life in a simple photo</p>
+          <a href="#" class="button">Get started</a>
+        </div>
+        <div class="promo__social-links">
+          <ul>
+            <li>
+              <a href="#">twitter</a>
+            </li>
+            <li>
+              <a href="#">flickr</a>
+            </li>
+            <li>
+              <a href="#">dribble</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="photoapp">
+      <div class="container flex-row">
+        <div class="card">
+          <h2>Rappresent your life with a simple photo</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+            sed do eiusmod tempor incididunt ut labore et dolore <br />
+            magna aliqua. Ut <span class="bold-text">enim ad minim</span> veniam, quis <br />
+            nostrud exercitation ullamco laboris nisi <br />
+            ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="#" class="button button_wide">Get started</a>
+        </div>
+      </div>
+    </div>
+    <div class="design">
+      <div class="container flex-row">
+        <div class="card">
+          <img src="img/iphone.png" alt="" />
+        </div>
+        <div class="card">
+          <h2>Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore <br />
+            magna aliqua. Ut <span class="bold-text">enim ad minim</span> veniam, quis <br />
+            nostrud exercitation ullamco laboris nisi <br />
+            ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="#" class="button button_wide">Learn more</a>
+          <div class="slide-nav">
+            <span>01/05</span>
+            <span class="arrows">
+              <a class="arrow-left" href="#"></a>
+              <a class="arrow-right" href="#"></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="container">
+        <div class="flex-row slider__arrow">
+          <div class="slide-nav">
+            <span class="arrows">
+              <a class="arrow-left" href="#"></a>
+              <a class="arrow-right" href="#"></a>
+            </span>
+          </div>
+        </div>
+        <div class="flex-row slider__elements">
+          <div class="slider__elem slider__elem_small">
+            <img src="img/slide-1.png" alt="" />
+          </div>
+          <div class="slider__elem slider__elem_wide">
+            <img src="img/slide-2.jpg" alt="" />
+          </div>
+          <div class="slider__elem slider__elem_wide">
+            <img src="img/slide-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="container">
+        <h2>subscribe to us community</h2>
+        <form action="#" method="post">
+          <input type="email" placeholder="your email" /><button type="submit"></button>
+        </form>
+      </div>
+    </div>
+    <div class="download">
+      <div class="container">
+        <h2>Download it</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut<br />
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco<br />
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="buttons">
+          <a href="#" class="download__button download__button_apple"
+            >apple store <span class="button__logo"></span
+          ></a>
+          <a href="#" class="download__button download__button_play-store"
+            >play store <span class="button__logo"></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__links">
+          <li><a href="#">credits</a></li>
+          <li><a href="#">privacy</a></li>
+          <li><a href="#">our teams</a></li>
         </ul>
-      </nav>
-      <div class="promo__info">
-        <h1>Your life , a photo</h1>
-        <p>print your life in a simple photo</p>
-        <a href="#" class="button">Get started</a>
+        <span class="footer__copyright">Copyright by phototime - all right reserved</span>
       </div>
-      <div class="promo__social-links">
-        <ul>
-          <li>
-            <a href="#">twitter</a>
-          </li>
-          <li>
-            <a href="#">flickr</a>
-          </li>
-          <li>
-            <a href="#">dribble</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="photoapp">
-    <div class="container flex-row">
-      <div class="card">
-        <h2>Rappresent your life with a simple photo</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et
-          dolore <br> magna aliqua. Ut <span class="bold-text">enim ad minim</span> veniam, quis <br> nostrud
-          exercitation ullamco laboris nisi <br> ut aliquip ex ea commodo consequat.</p>
-        <a href="#" class="button button_wide">Get started</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="design">
-    <div class="container flex-row">
-      <div class="card">
-        <img src="img/iphone.png" alt="">
-      </div>
-      <div class="card">
-        <h2>Design</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          <br> magna aliqua. Ut <span class="bold-text">enim ad minim</span> veniam, quis <br> nostrud exercitation
-          ullamco laboris nisi <br> ut aliquip ex ea commodo consequat.</p>
-        <a href="#" class="button button_wide">Learn more</a>
-
-        <div class="slide-nav">
-          <span>01/05</span>
-          <span class="arrows">
-            <a class="arrow-left" href="#"></a>
-            <a class="arrow-right" href="#"></a>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slider">
-    <div class="container">
-      <div class="flex-row slider__arrow">
-        <div class="slide-nav">
-          <span class="arrows">
-            <a class="arrow-left" href="#"></a>
-            <a class="arrow-right" href="#"></a>
-          </span>
-        </div>
-      </div>
-      <div class="flex-row slider__elements">
-        <div class="slider__elem slider__elem_small">
-          <img src="img/slide-1.png" alt="">
-        </div>
-        <div class="slider__elem slider__elem_wide">
-          <img src="img/slide-2.jpg" alt="">
-        </div>
-        <div class="slider__elem slider__elem_wide">
-          <img src="img/slide-3.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="subscribe">
-    <div class="container">
-      <h2>subscribe to us community</h2>
-      <form action="#" method="post"><input type="email" placeholder="your email"><button type="submit"></button></form>
-    </div>
-  </div>
-
-  <div class="download">
-    <div class="container">
-      <h2>Download it</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex
-        ea commodo consequat.</p>
-      <div class="buttons">
-        <a href="#" class="download__button download__button_apple">apple store <span class="button__logo"></span></a>
-        <a href="#" class="download__button download__button_play-store">play store <span
-            class="button__logo"></span></a>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="container">
-      <ul class="footer__links">
-        <li><a href="#">credits</a></li>
-        <li><a href="#">privacy</a></li>
-        <li><a href="#">our teams</a></li>
-      </ul>
-      <span class="footer__copyright">Copyright by phototime - all right reserved</span>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
